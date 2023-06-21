@@ -4,11 +4,30 @@
   box-sizing: border-box;
 }
 
-header {
+header, body, section {
   border: 1px dashed black;
 }
 
 .box {
   height: 50px;
   background-color: red;
+}
+
+#jumbotron {
+  background-color: rgb(26, 188, 156);
+}
+
+#jumbotron .image-box {
+  background-color: greenyellow;
+  height: 300px;
+}
+
+#jumbotron .text-box {
+  height: 50px;
+  background-color: greenyellow;
+}
+
+#jumbotron .bar-box {
+  height: 40px;
+  background-color: greenyellow;
 }
