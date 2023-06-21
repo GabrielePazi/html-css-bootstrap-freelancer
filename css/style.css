@@ -19,15 +19,36 @@ header, body, section {
 
 #jumbotron .image-box {
   background-color: greenyellow;
+  border: 1px dashed black;
   height: 300px;
 }
 
 #jumbotron .text-box {
   height: 50px;
   background-color: greenyellow;
+  border: 1px dashed black;
 }
 
 #jumbotron .bar-box {
   height: 40px;
   background-color: greenyellow;
+  border: 1px dashed black;
+}
+
+#cards-section .text-box {
+  height: 50px;
+  background-color: yellow;
+  border: 1px dashed black;
+}
+
+#cards-section .bar-box {
+  height: 20px;
+  background-color: yellow;
+  border: 1px dashed black;
+}
+
+#cards-section .image-box {
+  height: 300px;
+  background-color: yellow;
+  border: 1px dashed black;
 }
