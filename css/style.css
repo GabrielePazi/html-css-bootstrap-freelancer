@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  border: 1px dashed black;
+}
+
+.box {
+  height: 50px;
+  background-color: red;
+}
