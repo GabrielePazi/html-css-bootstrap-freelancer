@@ -32,16 +32,8 @@ section {
   border: 1px dashed black;
 }
 
-#contact .text-box {
-  height: 50px;
-  background-color: lightblue;
-  border: 1px dashed black;
-}
-
-#contact .bar-box {
-  height: 20px;
-  background-color: lightblue;
-  border: 1px dashed black;
+.not-rounded {
+  border-radius: 0px !important;
 }
 
 footer .text-box {

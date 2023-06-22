@@ -163,24 +163,43 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-10">
-            <div class="text-box"></div>
+            <div class="text-box d-flex justify-content-center align-items-center text-dark text-uppercase fs-1 fw-bold">
+              contact me
+            </div>
 
-            <div class="bar-box"></div>
+            <div class="bar-box pt-3 pb-3 d-flex align-items-center justify-content-center">
+              <div class="horizontal-bar rounded bg-dark"></div>
+              <i class="fa-solid fa-star ps-2 pe-2"></i>
+              <div class="horizontal-bar rounded bg-dark"></div>
+            </div>
 
             <div class="row">
               <div class="col-12">
-                <div class="text-box"></div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control border-start-0 border-top-0 border-end-0 not-rounded" id="floatingInput" placeholder="Name">
+                  <label for="floatingInput">Name</label>
+                </div>
               </div>
               <div class="col-12">
-                <div class="text-box"></div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control border-start-0 border-top-0 border-end-0 not-rounded" id="floatingInput" placeholder="Email-Address">
+                  <label for="floatingInput">Email-Address</label>
+                </div>
               </div>
               <div class="col-12">
-                <div class="text-box"></div>
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control border-start-0 border-top-0 border-end-0 not-rounded" id="floatingInput" placeholder="Phone Number">
+                  <label for="floatingInput">Phone Number</label>
+                </div>
               </div>
               <div class="col-12">
-                <div class="text-box"></div>
-
-                <div class="text-box"></div>
+                <div class="mb-3">
+                  <label for="exampleFormControlTextarea1" class="form-label ps-3">Message</label>
+                  <textarea class="form-control border-start-0 border-top-0 border-end-0 not-rounded" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </div>
+              <div class="d-flex justify-content-start align-items-center text-light">
+                <button class="btn bg-success text-light border-light">Send</button>
               </div>
             </div>
           </div>
