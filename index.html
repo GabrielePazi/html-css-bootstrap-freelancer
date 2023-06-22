@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+  integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>Document</title>
 </head>
 <body>
@@ -15,29 +18,31 @@
       <div class="row align-items-center">
         <!-- titolo nav -->
         <div class="col-5 col-sm-4">
-          <div class="box d-flex justify-content-center align-items-center">
+          <div class="text-box d-flex justify-content-center align-items-center text-light fw-bold pt-3 pb-3">
             START BOOTSTRAP
           </div>
         </div>
 
         <!-- hambrger menu -->
         <div class="d-md-none col-3 offset-4 offset-sm-5">
-          <div class="box"></div>
+          <div class="box d-flex justify-content-center align-items-center text-light fw-bold">
+            <i class="fa-solid fa-bars"></i>
+          </div>
         </div>
 
         <!-- elementi navbar a destra -->
         <div class="col-md-2 offset-md-2 d-none d-md-block">
-          <div class="box d-flex justify-content-center align-items-center">
-            PORTFOLIO
+          <div class="box d-flex justify-content-center align-items-center text-light fw-bold">
+            PORTFOLIO 
           </div>
         </div>
         <div class="col-md-2 d-none d-md-block">
-          <div class="box d-flex justify-content-center align-items-center">
+          <div class="box d-flex justify-content-center align-items-center text-light fw-bold">
             ABOUT
           </div>
         </div>
         <div class="col-md-2 d-none d-md-block">
-          <div class="box d-flex justify-content-center align-items-center">
+          <div class="box d-flex justify-content-center align-items-center text-light fw-bold">
             CONTACT
           </div>
         </div>
@@ -50,34 +55,26 @@
     <section id="jumbotron">
       <div class="container-sm">
 
-        <!-- Prima row con foto -->
         <div class="row justify-content-center">
-          <div class="col-8 col-md-7 col-lg-5">
-            <div class="image-box"></div>
-          </div>
-        </div>
+          <div class="col-10 col-md-6">
+            <!-- Immagine centrale -->
+            <img src="./img/avatar.svg" alt="avatar">
 
-        <!-- Seconda row con testo -->
-        <div class="row justify-content-center">
-          <div class="col-10 col-md-9 col-lg-7">
-            <div class="text-box d-flex justify-content-center align-items-center">
-              <h1>START BOOTSTRAP</h1>
+            <!-- Testo grande -->
+            <div class="text-box d-flex justify-content-center align-items-center text-light text-uppercase fs-1 fw-bold pt-3">
+              Start Bootstrap
             </div>
-          </div>
-        </div>
 
-        <!-- Terza row con barra -->
-        <div class="row justify-content-center">
-          <div class="col-7 col-md-6 col-lg-6">
-            <div class="bar-box d-flex justify-content-center align-items-center"></div>
-          </div>
-        </div>
+            <!-- barre orizzonatli e icona -->
+            <div class="bar-box pt-3 d-flex align-items-center justify-content-center">
+              <div class="horizontal-bar rounded"></div>
+              <i class="fa-solid fa-star text-light ps-2 pe-2"></i>
+              <div class="horizontal-bar rounded"></div>
+            </div>
 
-        <!-- Quarta row con testo -->
-        <div class="row justify-content-center">
-          <div class="col-11 col-md-10 col-lg-8">
-            <div class="text-box d-flex justify-content-center align-items-center">
-              GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR
+            <!-- Testo medio -->
+            <div class="text-box pt-3 pb-3 d-flex justify-content-center align-items-center text-light text-uppercase fs-6 fw-bold">
+              graphic artist - web designer - illustrator
             </div>
           </div>
         </div>
@@ -87,20 +84,10 @@
     <section id="cards-section">
       <div class="container-sm">
         <!-- Prima row con testo -->
-        <div class="row justify-content-center">
-          <div class="col-4">
-            <div class="text-box"></div>
-          </div>
-        </div>
+        <div class="text-box"></div>
+        <div class="bar-box"></div>
 
-        <!-- Seconda row con barra -->
-        <div class="row justify-content-center">
-          <div class="col-5">
-            <div class="bar-box"></div>
-          </div>
-        </div>
-
-        <!-- Terza row con le cards -->
+        <!-- Seconda row con le cards -->
         <div class="row gy-3">
           <div class="col-12 col-md-6 col-lg-4">
             <div class="image-box"></div>
@@ -128,24 +115,13 @@
       <div class="container">
         <!-- Prima row con testo -->
         <div class="row justify-content-center">
-          <div class="col-3">
+          <div class="col-10">
             <div class="text-box d-flex justify-content-center align-items-center">
               ABOUT US
             </div>
-          </div>
-        </div>
-
-        <!-- Seconda row con barra -->
-        <div class="row justify-content-center">
-          <div class="col-2">
             <div class="bar-box"></div>
-          </div>
-        </div>
 
-        <!-- Terza row con testo separato -->
-        <div class="row justify-content-center">
-          <div class="col-10">
-            <div class="row">
+            <div class="row justify-content-center">
               <div class="col-12 col-md-6">
                 <div class="text-split-box">
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error asperiores voluptatum quia sed modi officiis excepturi quas? Id, culpa! Suscipit neque ipsam perferendis, possimus accusantium molestiae delectus dignissimos. Ipsam, dolores.</p>
@@ -158,12 +134,7 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
 
-        <!-- Quarta row con button -->
-        <div class="row justify-content-center">
-          <div class="col-2">
             <div class="btn-box"></div>
           </div>
         </div>
@@ -173,22 +144,11 @@
     <section id="contact">
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-4">
-            <div class="text-box">
-            </div>
-          </div>
-        </div>
-
-        <!-- Seconda row con barra -->
-        <div class="row justify-content-center">
-          <div class="col-2">
-            <div class="bar-box"></div>
-          </div>
-        </div>
-
-        <!-- Terza row con testo -->
-        <div class="row justify-content-center pb-5">
           <div class="col-10">
+            <div class="text-box"></div>
+
+            <div class="bar-box"></div>
+
             <div class="row">
               <div class="col-12">
                 <div class="text-box"></div>
@@ -201,68 +161,35 @@
               </div>
               <div class="col-12">
                 <div class="text-box"></div>
+
+                <div class="text-box"></div>
               </div>
             </div>
           </div>
         </div>
-
-        <!-- Quarta row con button -->
-        <div class="row justify-content-start pt-5">
-          <div class="col-3 offset-1">
-            <div class="text-box"></div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <footer>
       <div class="container">
-        <div class="row align-items-center">
-
-          <!-- Prima sezione con la location -->
+        <div class="row">
           <div class="col-12 col-md-4">
-            <div class="row justify-content-center pt-5">
-              <div class="col-4">
-                <div class="text-box"></div>
-              </div>
-              <div class="col-11">
-                <div class="text-box"></div>
-              </div>
-            </div>
+            <div class="text-box"></div>
+            <div class="text-box"></div>
           </div>
 
-          <!-- seconda sezione con i social -->
           <div class="col-12 col-md-4">
-              <div class="row justify-content-center pt-5">
-                <div class="col-5">
-                  <div class="text-box"></div>
-                </div>
-                <div class="col-10">
-                  <div class="text-box"></div>
-                </div>
-              </div>
-          </div>      
-
-          <!-- terza sezione con i why us? -->
-          <div class="col-12 col-md-4">
-              <div class="row justify-content-center pt-5">
-                <div class="col-7">
-                  <div class="text-box"></div>
-                </div>
-                <div class="col-12">
-                  <div class="text-box"></div>
-                </div>
-              </div>  
-            </div>
+            <div class="text-box"></div>
+            <div class="text-box"></div>
           </div>
-        </div>
 
-        <!-- ultima sezione con copyright -->
-        <div class="row justify-content-center pt-4 pb-4">
-          <div class="col-7">
+          <div class="col-12 col-md-4">
+            <div class="text-box"></div>
             <div class="text-box"></div>
           </div>
         </div>
+
+        <div class="text-box"></div>
+        
       </div>
     </footer>
   </body>

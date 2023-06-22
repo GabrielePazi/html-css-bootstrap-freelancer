@@ -8,31 +8,18 @@ header, body, section {
   border: 1px dashed black;
 }
 
-.box {
-  height: 50px;
-  background-color: red;
+header {
+  background-color: rgb(44, 62, 80);
 }
 
 #jumbotron {
   background-color: rgb(26, 188, 156);
 }
 
-#jumbotron .image-box {
-  background-color: greenyellow;
-  border: 1px dashed black;
-  height: 300px;
-}
-
-#jumbotron .text-box {
-  height: 50px;
-  background-color: greenyellow;
-  border: 1px dashed black;
-}
-
-#jumbotron .bar-box {
-  height: 40px;
-  background-color: greenyellow;
-  border: 1px dashed black;
+.horizontal-bar {
+  width: 20%;
+  height: 5px;
+  background-color: white;
 }
 
 #cards-section .text-box {
