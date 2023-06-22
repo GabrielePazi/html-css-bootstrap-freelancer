@@ -12,51 +12,19 @@ header {
   background-color: rgb(44, 62, 80);
 }
 
-#jumbotron {
+section {
+  padding: 3rem 0px;
+}
+
+#jumbotron, #about {
   background-color: rgb(26, 188, 156);
 }
 
 .horizontal-bar {
   width: 20%;
   height: 5px;
-  background-color: white;
 }
 
-#cards-section .text-box {
-  height: 50px;
-  background-color: yellow;
-  border: 1px dashed black;
-}
-
-#cards-section .bar-box {
-  height: 20px;
-  background-color: yellow;
-  border: 1px dashed black;
-}
-
-#cards-section .image-box {
-  height: 300px;
-  background-color: yellow;
-  border: 1px dashed black;
-}
-
-#about .text-box {
-  height: 50px;
-  background-color: orange;
-  border: 1px dashed black;
-}
-
-#about .bar-box {
-  height: 20px;
-  background-color: orange;
-  border: 1px dashed black;
-}
-
-#about .text-split-box {
-  height: 200px;
-  background-color: orange;
-  border: 1px dashed black;
-}
 
 #about .btn-box {
   height: 30px;
