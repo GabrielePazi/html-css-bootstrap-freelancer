@@ -12,7 +12,7 @@ header {
   background-color: rgb(44, 62, 80);
 }
 
-section {
+section, footer {
   padding: 3rem 0px;
 }
 
@@ -36,8 +36,15 @@ section {
   border-radius: 0px !important;
 }
 
-footer .text-box {
-  height: 50px;
-  background-color: blue;
-  border: 1px dashed black;
+.ratio-square {
+  height: 16px;
+  width: 16px;
+}
+
+#recap {
+  background-color: rgb(58, 84, 109);
+}
+
+footer {
+  background-color: rgb(44, 62, 80);
 }
