@@ -25,7 +25,6 @@ section, footer {
   height: 5px;
 }
 
-
 #about .btn-box {
   height: 30px;
   background-color: orange;
@@ -37,6 +36,8 @@ section, footer {
 }
 
 .ratio-square {
+  width: 40px;
+  aspect-ratio: 1/1;
   border-radius: 50%;
   border: 1px solid white;
   background-color: transparent;
